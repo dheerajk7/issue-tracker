@@ -1,0 +1,144 @@
+.project-list {
+  text-align: left;
+  list-style: none;
+  border: 0.5px solid grey;
+  border-collapse: collapse;
+  margin: 0;
+  padding: 0px;
+  max-width: 600px;
+  margin: auto;
+
+  li {
+    color: navy;
+    font-size: 1.2rem;
+    padding-left: 1%;
+    text-align: center;
+    padding: 10px 15px;
+  }
+
+  a {
+    color: navy;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  li:nth-child(odd) {
+    background-color: #00000042;
+  }
+
+  li:nth-child(even) {
+    background-color: #d3d3d35e;
+  }
+}
+
+.issue-list {
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .description-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background: lightgoldenrodyellow;
+
+    span {
+      font-size: 14px;
+      color: black;
+    }
+
+    .description {
+      font-size: 16px;
+      color: navy;
+      text-decoration: underline;
+      padding-bottom: 10px;
+    }
+  }
+}
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 10px 15px;
+  background: black;
+  color: white;
+}
+
+.project-heading {
+  font-size: 1.6rem;
+  padding: 2% 0%;
+  padding-left: 1%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+
+  button {
+    background: lightgreen;
+    color: black;
+    font-weight: bold;
+    border: 1px solid navy;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}
+
+.project-detail {
+  max-width: 600px;
+  margin: auto;
+  .project-title-container {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px 40px;
+    font-size: 18px;
+    font-family: monospace;
+    color: navy;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .description-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 20px 40px;
+    border: 1px solid black;
+
+    .heading {
+      font-size: 18px;
+      font-family: monospace;
+      color: navy;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  }
+
+  .button-container {
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+
+    a {
+      background: lightgreen;
+      padding: 6px;
+      font-size: 16px;
+      text-decoration: none;
+      border: 1px solid navy;
+      margin: 10px;
+      border-radius: 8px;
+      color: navy;
+      cursor: pointer;
+      height: 20px;
+    }
+  }
+}
